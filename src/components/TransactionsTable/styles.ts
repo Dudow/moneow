@@ -21,9 +21,18 @@ export const Container = styled.div`
       background: var(--shape);
       color: var(--text-body);
       border-radius: 0%.25rem;
+      text-transform: capitalize;
 
       &:first-child {
         color: var(--text-title);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
+
+      &.deposit {
+        color: var(--green);
       }
     }
   }
